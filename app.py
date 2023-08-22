@@ -6,7 +6,7 @@ import time
 app = Flask(__name__)
 
 
-app.secret_key = "slkansfa"
+app.secret_key = "XXXXXXX"
 app.config['SESSION_COOKIE_NAME'] = 'Mason Drabik'
 TOKEN_INFO = "token_info"
 
