@@ -70,8 +70,8 @@ def logout():
 
 def create_spotify_oauth():
     return SpotifyOAuth(
-        client_id = "a2f4b2f43ce949828d350c7d201876c1",
-        client_secret = "f610f9ecb2984f80a36624aebda34090",
+        client_id = "XXXXXXX",
+        client_secret = "XXXXXXXXX",
         redirect_uri= url_for('redirectPage', _external=True),
         scope="user-top-read"
     )
